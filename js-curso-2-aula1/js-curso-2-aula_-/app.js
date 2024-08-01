@@ -1,7 +1,7 @@
 let ListaDeNumerosSorteados = [] ;
-let LimiteDaLista = 100
+let LimiteDaLista = 100;
 let NumeroSecreto = GerarNumeroAleatorio ();
-console.log (NumeroSecreto)
+//console.log (NumeroSecreto)
 let Tentativas = 1
 
 
@@ -48,7 +48,7 @@ function GerarNumeroAleatorio (){
     return GerarNumeroAleatorio() ;
    } else {
      ListaDeNumerosSorteados.push (NumeroEscolhido) ;
-     console.log (ListaDeNumerosSorteados)
+     //console.log (ListaDeNumerosSorteados)
      return NumeroEscolhido ;
    }
    
