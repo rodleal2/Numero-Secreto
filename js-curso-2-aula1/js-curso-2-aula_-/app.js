@@ -1,5 +1,5 @@
 let ListaDeNumerosSorteados = [] ;
-let LimiteDaLista = 5
+let LimiteDaLista = 100
 let NumeroSecreto = GerarNumeroAleatorio ();
 console.log (NumeroSecreto)
 let Tentativas = 1
@@ -12,7 +12,7 @@ function ExibirTextoNaTela (tag, Text) {
 
 function ExibirMenssagemInicial () {
 ExibirTextoNaTela ("h1", "Jogo do Numero Secreto") ;
-ExibirTextoNaTela ("p", "Escolha um numero de 1 a 10") ;
+ExibirTextoNaTela ("p", `Escolha um numero de 1 à ${LimiteDaLista}`) ;
 }
 
 ExibirMenssagemInicial () ;
